@@ -38,6 +38,18 @@
 
 `docker system prune`
 
+- Retrieving output logs
+
+`docker logs <container id>`
+
+- Stop a container
+
+`docker stop <container id>`, `docker kill <container id>`
+
+
+
+
+
 
 
 
