@@ -32,7 +32,7 @@
 
 - Restart a container
 
-`docker start -a <container id>`  Check the container id using `ps` command
+`docker start -a <container id>`  *Check the container id using `ps` command*
 
 - Delete all containers
 
