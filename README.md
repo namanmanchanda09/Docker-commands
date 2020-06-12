@@ -22,3 +22,15 @@
 
 `docker ps --all`
 
+- Creating a container
+
+`docker create hello-world`
+
+- Start a container
+
+`docker start -a <container id>`
+
+
+
+
+
