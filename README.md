@@ -56,17 +56,20 @@
 
 `docker exec -it <container id> sh` *Different command processors are `bash`, `powershell`, `zsh`, `sh`.*
 
+- Starting shell using image
 
+`docker run -it busybox sh`
 
+### Creating the docker file
+- Create an empty folder `redis-image`.
+- Create a `Dockerfile` inside the folder.
+- Inside the `Dockerfile` add
 
+```
+FROM alpine
+RUN apk add --update redis
+CMD ["redis-server"]
+```
 
-
-
-
-
-
-
-
-
-
-
+-  In terminal run `docker build .` inside the folder.
+- Run `docker run <output id>`
