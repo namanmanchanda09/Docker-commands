@@ -32,7 +32,7 @@
 
 - Restart a container
 
-`docker start -a <container id>`  *Check the container id using `ps` command*
+`docker start -a <container id>`  *Check the container id using `ps` command.*
 
 - Delete all containers
 
@@ -45,6 +45,17 @@
 - Stop a container
 
 `docker stop <container id>`, `docker kill <container id>`
+
+- Executing commands in running containers
+
+`docker run redis`
+
+`docker exec -it <container id> redis-cli`
+
+- Getting a command prompt in a container
+
+`docker exec -it <container id> sh` *Different command processors are `bash`, `powershell`, `zsh`, `sh`.*
+
 
 
 
