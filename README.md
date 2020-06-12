@@ -30,6 +30,19 @@
 
 `docker start -a <container id>`
 
+- Restart a container
+
+`docker start -a <container id>`  Check the container id using `ps` command
+
+- Delete all containers
+
+`docker system prune`
+
+
+
+
+
+
 
 
 
