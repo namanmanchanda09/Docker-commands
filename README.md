@@ -75,8 +75,12 @@ CMD ["redis-server"]
 - Run `docker run <output id>`
 
 - Tagging an image
-`docker build -t namanmanchanda/redis:latest .`
 
+`docker build -t namanmanchanda/redis:latest .`
+ 
+ - Container Port Forwarding
+ 
+ `docker run -p 8080:8080 <image name>`
 
 
 
