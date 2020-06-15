@@ -81,6 +81,11 @@ CMD ["redis-server"]
  - Container Port Forwarding
  
  `docker run -p 8080:8080 <image name>`
+ 
+ - Specifying a working directory
+ 
+ `WORKDIR /usr/app` Add this in `Dockerfile`
+ 
 
 
 
