@@ -73,3 +73,11 @@ CMD ["redis-server"]
 
 -  In terminal run `docker build .` inside the folder.
 - Run `docker run <output id>`
+
+- Tagging an image
+`docker build -t namanmanchanda/redis:latest .`
+
+
+
+
+
